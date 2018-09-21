@@ -1,0 +1,7 @@
+#written adapter 
+#Mon Aug 20 19:34:54 CST 2018
+#Mon Aug 20 19:34:54 CST 2018
+day=20
+name=tome
+year=2017
+month=8

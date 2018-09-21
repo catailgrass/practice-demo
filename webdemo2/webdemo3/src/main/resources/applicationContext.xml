@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+          http://www.springframework.org/schema/aop
+          http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context-4.3.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+   <!--annotaion 配置启动-->
+    <context:annotation-config />
+    <!--注解扫描包-->
+    <context:component-scan base-package="com.flycat">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+    </context:component-scan>
+    <!--data source-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName"><value>${jdbc.base.driverClassName}</value></property>
+        <property name="url"> <value>${jdbc.base.url}</value></property>
+        <property name="username"> <value>${jdbc.base.username}</value></property>
+        <property name="password"><value>${jdbc.base.password}</value></property>
+        <property name="maxActive"><value>${jdbc.base.maxActive}</value></property>
+        <property name="maxWait"><value>${jdbc.base.maxWait}</value></property>
+        <property name="maxIdle"><value>${jdbc.base.maxIdle}</value></property>
+        <property name="initialSize"><value>${jdbc.base.initSize}</value></property>
+        <property name="removeAbandoned"><value>true</value></property>
+        <property name="testWhileIdle"><value>true</value></property>
+        <property name="testOnBorrow"><value>false</value></property>
+        <property name="validationQuery"><value>SELECT 1 FROM DUAL</value></property>
+    </bean>
+    <!--sqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 自动扫描dto目录, 省掉Configuration.xml里的手工配置 -->
+        <property name="typeAliasesPackage" value="com.flycat.model" />
+        <!-- 显式指定Mapper文件位置 -->
+        <property name="mapperLocations" value="classpath:/com/flycat/dao/mapper/*Mapper.xml" />
+    </bean>
+    <!-- 扫描basePackage下所有以@MyBatisRepository标识的 接口-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.flycat.dao" />
+        <property name="annotationClass" value="com.flycat.dao.base.MyBatisRepository"/>
+    </bean>
+    <!--redis -->
+    <bean  class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:redis.properties</value>
+                <value>classpath:jdbc.properties</value>
+            </list>
+        </property>
+        <property name="ignoreUnresolvablePlaceholders" value="true" />
+    </bean>
+    <bean id="redisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxIdle"><value>${redis.maxIdle}</value></property>
+        <property name="maxTotal" ><value>${redis.maxActive}</value></property>
+        <property name="maxWaitMillis"><value>${redis.maxWait}</value></property>
+    </bean>
+    <bean id="redisConFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <property name="poolConfig" ref="redisPoolConfig"/>
+        <property name="port" value="${redis.port}"/>
+        <property name="hostName" value="${redis.host}"/>
+        <property name="password" value="${redis.password}"/>
+        <property name="database" value="${redis.db}"/>
+    </bean>
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">
+        <property name="connectionFactory" ref="redisConFactory"/>
+    </bean>
+
+</beans>
