@@ -11,6 +11,7 @@
     <module>webdemo3</module>
     <module>elasticsearch</module>
     <module>practice</module>
+    <module>spark-streaming-es</module>
   </modules>
   <packaging>pom</packaging>
 
