@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>webdemo3</module>
+    <module>normal-webservice</module>
     <module>elasticsearch</module>
     <module>practice</module>
     <module>spark-streaming-es</module>

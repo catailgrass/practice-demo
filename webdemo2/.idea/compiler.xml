@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="elasticsearch" />
+        <module name="normal-webservice" />
         <module name="practice" />
         <module name="sparkstreaminges" />
-        <module name="webdemo3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
