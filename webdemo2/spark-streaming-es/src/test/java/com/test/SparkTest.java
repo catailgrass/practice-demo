@@ -33,7 +33,7 @@ public class SparkTest {
         sc.set("es.port", "9200");
 // Create a local StreamingContext with two working thread and batch interval of 3 second
 //        SparkConf conf = new SparkConf().setMaster("local[2]").setAppName("NetworkWordCount");
-        JavaStreamingContext jssc = new JavaStreamingContext(sc, Durations.seconds(3));
+//        JavaStreamingContext jssc = new JavaStreamingContext(sc, Durations.seconds(3));
 
         //设置kafka配置信息，KafkaUtils.createDirectStream(）方法读取信息得到 JavaPairDStream< String,String>对象dStream。
 //        JavaPairDStream<String, String> dStream = KafkaUtils.createDirectStream(jssc,Spa);
@@ -45,14 +45,14 @@ public class SparkTest {
         //
         //最后启动和关闭对象JavaStreamingContext jssc
 
-        try {
-            jssc.start();
-            jssc.awaitTermination();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } finally {
-            jssc.close();
-        }
+//        try {
+//            jssc.start();
+//            jssc.awaitTermination();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        } finally {
+//            jssc.close();
+//        }
 
     }
 }

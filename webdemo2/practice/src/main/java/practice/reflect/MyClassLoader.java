@@ -25,13 +25,21 @@ public class MyClassLoader {
     private static Map<String, Object> objectMap = new HashMap<>();
     private static String path = "D:\\java_project\\webdemo2\\src\\main\\resources\\config";
     public static void init(){
+        FileInputStream fileInputStream = null;
         try {
-            FileInputStream fileInputStream = new FileInputStream(new File(path));
+            fileInputStream = new FileInputStream(new File(path));
             properties = new Properties();
             properties.load(fileInputStream);
             fileInputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
+        }finally {
+            try {
+                if (fileInputStream != null)
+                    fileInputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -41,12 +49,14 @@ public class MyClassLoader {
     public static void test(){
         try {
             //类的反射 对象的实例化
-            ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+//            ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 //            classLoader.loadClass("practice.reflect.Person");
-            Class.forName("practice.reflect.Person").newInstance();
+//            Class.forName("practice.reflect.Person").newInstance();
             Class clazz = Class.forName("practice.reflect.Person");
-            Constructor constructor = clazz.getConstructor(String.class, String.class);
-            Person person = (Person) constructor.newInstance("12", "jack");
+            Constructor constructor = clazz.getConstructor(int.class,String.class);
+            Person person = (Person) constructor.newInstance(12, "jack");
+            person.selfIntroduct();
+            System.out.println(person);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -60,10 +70,10 @@ public class MyClassLoader {
         }
     }
     public static void main(String[]args){
-//        test();
+        test();
         //类的加载 连接 初始化 方法的调用
-        init();
-        initProperty();
+//        init();
+//        initProperty();
     }
     public static void initProperty(){
         try {
@@ -104,7 +114,6 @@ class Person{
     public Person(int age, String name) {
         this.age = age;
         this.name = name;
-        System.out.println("我叫"+name+"，今年"+age+"岁");
         System.out.println("Person 有参构造器");
     }
     public void selfIntroduct(){

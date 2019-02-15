@@ -7,19 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ccfcebf-797b-4c66-8fd0-7302b559ae67" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming-es/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-es/sparkstreaminges.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-es/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/SparkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/elasticsearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/test-classes/TestClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/practice/MyAbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/practice/MyAbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/practice/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/practice/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/practice/reflect/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/practice/reflect/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/test/java/practice/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-streaming-es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming-es/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/SparkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/SparkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdemo3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webdemo3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdemo3/src/main/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/webdemo3/src/test/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/webdemo3/target/" />
@@ -59,11 +58,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webdemo3/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark-streaming-es/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="405">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -71,36 +79,20 @@
       <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparkTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/SparkTest.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+            <state relative-caret-position="135">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaKafkaWordCount.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +102,16 @@
         <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaKafkaWordCount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -122,6 +123,8 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -140,7 +143,23 @@
       <find>fasdfasdfasdfasdfasd</find>
       <find>spring-da</find>
       <find>StreamingExamples</find>
+      <find>crea</find>
+      <find>create</find>
+      <find>CloseableHttpClient</find>
+      <find>4.3.18.RELEASE</find>
+      <find>commons</find>
+      <find>serv</find>
+      <find>spring</find>
+      <find>aop</find>
+      <find>aspec</find>
+      <find>as</find>
+      <find>boot</find>
+      <find>logback</find>
+      <find>log</find>
     </findStrings>
+    <replaceStrings>
+      <replace>${spring.framework.version}</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>D:\java_project\webdemo\webdemo2\webdemo2\webdemo4\src\main\java\com\qy\sp\fee\modules\piplecode</dir>
       <dir>D:\java_project\webdemo\webdemo2\webdemo2\webdemo4\src\main\java\com\qy\sp\fee\dao</dir>
@@ -153,24 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/flycat/dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/test/Test.java" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/AdminDaoMapper.java" />
-        <option value="$PROJECT_DIR$/webdemo4/pom.xml" />
-        <option value="$PROJECT_DIR$/webdemo4/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/impl/AdminDaoMapper.java" />
-        <option value="$PROJECT_DIR$/webdemo3/pom.xml" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/webdemo4/src/main/java/com/qy/sp/fee/dao/impl/BlackListDao.java" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/MyBatisRepository.java" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/AdminDaoImpl.java" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/BlackListDao.java" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/base/MyBatisRepository.java" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/impl/AdminDaoImpl.java" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/base/BaseDao.java" />
-        <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/AdminDao.java" />
         <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/model/Admin.java" />
         <option value="$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/webdemo3/src/main/resources/log4j.properties" />
@@ -184,19 +185,44 @@
         <option value="$PROJECT_DIR$/src/main/java/practice/innerclass/AnonymousInnerClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/jinjie/spark/SparkTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/Test.java" />
-        <option value="$PROJECT_DIR$/practice/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch/src/test/java/TestClient.java" />
         <option value="$PROJECT_DIR$/elasticsearch/src/main/resources/json" />
         <option value="$PROJECT_DIR$/elasticsearch/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spark-streaming-es/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/spark-streaming-es/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/controller/TestController.java" />
         <option value="$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/spark/KafkaRecHbase.java" />
-        <option value="$PROJECT_DIR$/spark-streaming-es/pom.xml" />
-        <option value="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java" />
         <option value="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/App.java" />
+        <option value="$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/java8/LambdaTest.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/common/StringTest.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/proxy/WizardTower.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/proxy/IvoryTower.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/proxy/Wizard.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/proxy/WizardProxy.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/proxy/JDKProxy.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/aspectJ/MyAspectJDemo.aj" />
+        <option value="$PROJECT_DIR$/practice/src/main/resources/spring.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/SparkTest.java" />
+        <option value="$PROJECT_DIR$/webdemo3/pom.xml" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpring.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpringAnnotation.java" />
+        <option value="$PROJECT_DIR$/practice/src/test/resources/spring.properties" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpringFactory.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpringIOCService.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpringIOCService_annotaion.java" />
+        <option value="$PROJECT_DIR$/practice/src/test/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/springAOP/HelloSpringAOPAspectJ.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/springAOP/HelloSpringAOP.java" />
+        <option value="$PROJECT_DIR$/practice/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/practice/pom.xml" />
+        <option value="$PROJECT_DIR$/practice/src/test/resources/springAOP.xml" />
+        <option value="$PROJECT_DIR$/practice/src/test/java/practice/Test.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/MyAbstractClass.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/MyInterface.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/practice/reflect/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/spark-streaming-es/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spark-streaming-es/pom.xml" />
       </list>
     </option>
   </component>
@@ -218,24 +244,45 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="practice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spark-streaming-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spark-streaming-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spark-streaming-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="build-helper" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spark-streaming-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.spark:spark-sql_2.11:2.2.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-streaming-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.elasticsearch:elasticsearch-spark-20_2.11:6.3.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-streaming-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:1.5.16.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-streaming-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="junit:junit:4.12" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -259,6 +306,77 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-streaming-es" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-streaming-es" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-streaming-es" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-streaming-es" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-streaming-es" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-streaming-es" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-streaming-es" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="webdemo3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -279,27 +397,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="spark-streaming-es" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -308,17 +414,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_project\webdemo2\webdemo2\webdemo3\src" />
+      <recent name="D:\java_project\webdemo2\webdemo2\practice\src\test\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="practice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.flycat.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_project\webdemo2\webdemo2\practice\src\test" />
+      <recent name="D:\java_project\webdemo2\webdemo2\practice\src\main\java\practice\aspectJ" />
       <recent name="D:\java_project\webdemo\webdemo2\practice\src\test" />
       <recent name="D:\java_project\webdemo\webdemo2\practice\src\main\resources" />
       <recent name="D:\java_project\webdemo\webdemo2\practice\src\main\java" />
-      <recent name="D:\java_project\webdemo\webdemo2\webdemo2\webdemo3\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,33 +447,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaKafkaWordCount">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.App" />
-      <module name="sparkstreaminges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="JavaKafkaWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JavaKafkaWordCount" />
-      <module name="sparkstreaminges" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.aspectJ.HelloWorld" />
+      <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="practice.aspectJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SparkTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.SparkTest" />
-      <module name="sparkstreaminges" />
+    <configuration name="MyClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.reflect.MyClassLoader" />
+      <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="practice.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,13 +476,13 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestClient.coonectEs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="elasticsearch" />
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClient" />
-      <option name="METHOD_NAME" value="coonectEs" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -384,13 +493,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webdemo2" />
+    <configuration name="Test.testSpringAOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Test" />
+      <option name="METHOD_NAME" value="testSpringAOP" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.testSpringIOC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.Test" />
+      <option name="METHOD_NAME" value="testSpringIOC" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -518,19 +644,19 @@
     <list>
       <item itemvalue="Tomcat Server.webdemo3" />
       <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="JUnit.Test.testSpringIOC" />
       <item itemvalue="JUnit.Test.test" />
-      <item itemvalue="JUnit.TestClient.coonectEs" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.SparkTest (1)" />
-      <item itemvalue="Application.JavaKafkaWordCount" />
+      <item itemvalue="JUnit.Test.testSpringAOP" />
+      <item itemvalue="Application.MyClassLoader" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaKafkaWordCount" />
-        <item itemvalue="Application.SparkTest (1)" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.TestClient.coonectEs" />
+        <item itemvalue="Application.MyClassLoader" />
+        <item itemvalue="JUnit.Test.testSpringAOP" />
+        <item itemvalue="JUnit.Test.testSpringIOC" />
         <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +682,15 @@
       <workItem from="1537508610051" duration="6581000" />
       <workItem from="1537522572876" duration="658000" />
       <workItem from="1537839694703" duration="14739000" />
-      <workItem from="1537874142649" duration="2327000" />
+      <workItem from="1537874142649" duration="4366000" />
+      <workItem from="1537926459656" duration="2367000" />
+      <workItem from="1537930965000" duration="6990000" />
+      <workItem from="1545895151985" duration="5286000" />
+      <workItem from="1547114714369" duration="8299000" />
+      <workItem from="1550036394156" duration="9274000" />
+      <workItem from="1550109399513" duration="21015000" />
+      <workItem from="1550142339131" duration="68000" />
+      <workItem from="1550194523110" duration="5796000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1534499110692</created>
@@ -600,43 +734,64 @@
       <option name="project" value="LOCAL" />
       <updated>1534843222303</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="use spark streaming to load kafka log into es">
+      <created>1537876542323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537876542324</updated>
+    </task>
+    <task id="LOCAL-00008" summary="proxy and JDK proxy">
+      <created>1550040778575</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550040778575</updated>
+    </task>
+    <task id="LOCAL-00009" summary="spring IOC and AOP">
+      <created>1550142387139</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550142387139</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_getAllAdmin - 2018.08.20 at 10h 25m 56s.xml">
-      <configuration name="Test.getAllAdmin" configurationId="JUnit" />
+    <history-entry file="Test_testSpringIOC - 2019.02.14 at 17h 39m 24s.xml">
+      <configuration name="Test.testSpringIOC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.09.20 at 17h 49m 02s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 18h 16m 18s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.09.20 at 18h 06m 44s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 18h 48m 55s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.09.20 at 18h 10m 43s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 18h 50m 18s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.09.20 at 18h 10m 53s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 18h 55m 31s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.09.20 at 18h 11m 20s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 18h 57m 34s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClient_coonectEs - 2018.09.21 at 15h 33m 50s.xml">
-      <configuration name="TestClient.coonectEs" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 18h 58m 17s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClient_coonectEs - 2018.09.21 at 15h 43m 56s.xml">
-      <configuration name="TestClient.coonectEs" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 18h 59m 46s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClient_coonectEs - 2018.09.21 at 15h 51m 10s.xml">
-      <configuration name="TestClient.coonectEs" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 19h 02m 32s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClient_coonectEs - 2018.09.21 at 15h 52m 19s.xml">
-      <configuration name="TestClient.coonectEs" configurationId="JUnit" />
+    <history-entry file="Test_testSpringAOP - 2019.02.14 at 19h 02m 59s.xml">
+      <configuration name="Test.testSpringAOP" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61774000" />
+    <option name="totallyTimeSpent" value="122908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,12 +804,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32922733" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49503312" weight="0.17217484" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49503312" weight="0.18070363" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -662,24 +818,24 @@
       <window_info id="Structure" order="1" sideWeight="0.5005599" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.4260289" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.32814237" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.4260289" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32814237" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32814237" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32922733" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32814237" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.32814237" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5049669" side_tool="true" weight="0.17217484" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32703003" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.3381535" />
       <window_info anchor="bottom" id="Spring" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32925472" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.2835821" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.22334754" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32995737" />
       <window_info id="Web" order="6" sideWeight="0.5005599" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.5005599" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5049669" side_tool="true" weight="0.17217484" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -736,7 +892,10 @@
     <MESSAGE value="框架环境恢复" />
     <MESSAGE value="adapter模式" />
     <MESSAGE value="spark 测试h" />
-    <option name="LAST_COMMIT_MESSAGE" value="spark 测试h" />
+    <MESSAGE value="use spark streaming to load kafka log into es" />
+    <MESSAGE value="proxy and JDK proxy" />
+    <MESSAGE value="spring IOC and AOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring IOC and AOP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -795,141 +954,100 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="14" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/practice/src/test/java/practice/Test.java</url>
+          <line>39</line>
+          <properties class="Test" method="testSpringAOP">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/controller/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/practice/target/classes/practice/proxy/AImpl.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/target/classes/practice/proxy/IvoryTower.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/target/classes/practice/proxy/JDKProxy.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/aspectJ/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="216">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdemo3/src/main/resources/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/aspectJ/MyAspectJDemo.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="513">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdemo3/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webdemo3/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/mapper/ma.tld" />
-    <entry file="file://$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/mapper/ffasdf.fxml" />
-    <entry file="file://$PROJECT_DIR$/webdemo3/src/main/java/com/flycat/dao/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/newfile" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="829" column="21" lean-forward="true" selection-start-line="829" selection-start-column="21" selection-end-line="829" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/newfile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/innerclass/AnonymousInnerClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/adapter/Adapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/http/HttpClientUtil.java" />
-    <entry file="file://$PROJECT_DIR$/webdemo3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="169" column="11" lean-forward="true" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jinjie/spark/SparkTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/MyInterface.java" />
-    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/http/URLTest.java">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/resources/newfile.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/main/resources/config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/Test.java" />
-    <entry file="file://$PROJECT_DIR$/practice/pom.xml">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/resources/spring.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="108">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/src/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/practice/src/test/resources/newfile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdemo3/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/SparkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/config/spring-context-4.3.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/6.4.0/transport-6.4.0.jar!/org/elasticsearch/transport/client/PreBuiltTransportClient.class">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpringFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.0/elasticsearch-6.4.0.jar!/org/elasticsearch/common/settings/Settings.class">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpringAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.4.0/elasticsearch-x-content-6.4.0.jar!/org/elasticsearch/common/xcontent/json/JsonXContent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.4.0/elasticsearch-x-content-6.4.0.jar!/org/elasticsearch/common/xcontent/XContentFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.4.0/elasticsearch-x-content-6.4.0.jar!/org/elasticsearch/common/xcontent/XContentBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="44" />
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -940,161 +1058,260 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/resources/json">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpringIOCService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret column="42725" selection-start-column="42725" selection-end-column="42725" />
+        <state relative-caret-position="453">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/pom.xml">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/springIOC/HelloSpringIOCService_annotaion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticsearch/src/test/java/TestClient.java">
+    <entry file="file://$PROJECT_DIR$/practice/src/test/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="891">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="121" column="17" lean-forward="true" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+        <state relative-caret-position="54">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar!/scala/Tuple2.class">
+    <entry file="file://$PROJECT_DIR$/practice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="448">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1.jar!/org/apache/spark/api/java/function/Function.class">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/springAOP/HelloSpringAOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/test/resources/springAOP.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/springAOP/HelloSpringAOPAspectJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="95" column="12" lean-forward="true" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/RunWith.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE.jar!/org/springframework/test/context/BootstrapWith.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE.jar!/org/springframework/test/context/BootstrapContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/annotation/Inherited.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="67" lean-forward="true" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/spark/KafkaRecHbase.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+    <entry file="file://$PROJECT_DIR$/practice/src/test/java/practice/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#test#0;class#Test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/MyInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/MyAbstractClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/test/resources/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="1820" column="20" lean-forward="true" selection-start-line="1820" selection-start-column="20" selection-end-line="1820" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/reflect/MyProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/java8/LambdaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.jar!/org/apache/spark/SparkConf.class">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/http/HttpClientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="256" column="21" selection-start-line="256" selection-start-column="21" selection-end-line="256" selection-end-column="21" />
+        <state relative-caret-position="-707">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#doPost#0;class#HttpClientUtil#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.2.0/spark-streaming_2.11-2.2.0.jar!/org/apache/spark/streaming/api/java/JavaStreamingContext.class">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/http/DownUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="-1665">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.3.0/spark-streaming_2.11-2.3.0.pom">
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/http/URLTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
+        <state relative-caret-position="432">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/src/main/java/practice/reflect/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-streaming-es/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.3.0/spark-streaming-kafka-0-8_2.11-2.3.0.jar!/org/apache/spark/streaming/kafka/KafkaUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="39" column="98" selection-start-line="39" selection-start-column="98" selection-end-line="39" selection-end-column="98" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="135">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
             <element signature="e#670#671#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.3.0/spark-streaming_2.11-2.3.0.jar!/org/apache/spark/streaming/api/java/JavaStreamingContext$.class">
+    <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="270">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.3.0/spark-streaming_2.11-2.3.0.jar!/org/apache/spark/streaming/api/java/JavaStreamingContext.class">
+    <entry file="file://$PROJECT_DIR$/spark-streaming-es/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5400">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/test/java/com/test/SparkTest.java">
+    <entry file="file://$PROJECT_DIR$/webdemo3/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.jar!/org/apache/spark/api/java/function/Function.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-streaming-es/src/main/java/com/JavaKafkaWordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1152,12 +1369,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sparkstreaminges</last-edited>
+          <last-edited>Spring|practice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -49,17 +49,13 @@ public final class JavaKafkaWordCount {
      */
     public static void main(String[] args) throws Exception {
 
-        if (args.length < 4) {
-            System.err.println("Usage: JavaKafkaWordCount <zkQuorum> <group> <topics> <numThreads>");
-//            System.exit(1);
-        }else {
+        if (args.length !=5) {
             args[0]=""+JavaKafkaWordCount.class;
             args[1] = "127.0.0.1:9092";
             args[2] = "test_consumer";
             args[3] = "test_topic";
             args[4] = "1";
         }
-
 //        StreamingExamples.setStreamingLogLevels();
         SparkConf sparkConf = new SparkConf().setAppName("JavaKafkaWordCount");
         // Create the context with 2 seconds batch size

@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>webdemo3</artifactId>
+    <groupId>com.flycat</groupId>
+    <artifactId>normal-webservice</artifactId>
     <packaging>war</packaging>
 
     <name>webdemo3 Maven Webapp</name>
