@@ -7,13 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="elasticsearch" />
-        <module name="normal-webservice" />
         <module name="practice" />
-        <module name="sparkstreaminges" />
+        <module name="normal-webservice" />
+        <module name="spark-streaming-es" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="webdemo4" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
