@@ -44,6 +44,10 @@ public class LambdaTest {
 
         greetService1.sayMessage("Runoob");
         greetService2.sayMessage("Google");
+
+        // 复杂的
+        BarkService barkService = name -> System.out.println(name + " . the dog bark at you");
+        barkService.barkAtSm("Tom");
     }
 
     interface MathOperation {
@@ -54,6 +58,9 @@ public class LambdaTest {
         void sayMessage(String message);
     }
 
+    interface BarkService{
+        void barkAtSm(String name);
+    }
     private int operate(int a, int b, MathOperation mathOperation){
         return mathOperation.operation(a, b);
     }
