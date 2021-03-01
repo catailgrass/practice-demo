@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="elasticsearch" />
         <module name="practice" />
         <module name="normal-webservice" />
-        <module name="spark-streaming-es" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="elasticsearch" target="1.8" />
+      <module name="spark-streaming-es" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="normal-webservice" options="" />
+      <module name="practice" options="" />
+    </option>
   </component>
 </project>
