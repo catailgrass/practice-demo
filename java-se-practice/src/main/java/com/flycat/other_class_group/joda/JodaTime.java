@@ -14,7 +14,7 @@ import java.util.Date;
 public class JodaTime {
 
     public static void main(String[] args) {
-        Date date = new Date();
+        long date = 1644302000000L;
         DateTime dateTime = new DateTime(date);
 
         System.out.println(dateTime);
