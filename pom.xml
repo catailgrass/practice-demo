@@ -8,7 +8,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>web-practice</module>
+    <module>web_service</module>
     <module>java-se-practice</module>
   </modules>
 
